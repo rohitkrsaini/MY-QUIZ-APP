@@ -14,7 +14,7 @@ const Quiz = () => {
 
   const getData = async () => {
     try {
-      const resp = await axios.get("http://localhost:3000/questions");
+      const resp = await axios.get("https://my-quiz-app-2hgq.onrender.com/questions");
       setQuestions(resp.data);
     } catch (error) {
       console.log(error);

@@ -3,8 +3,7 @@ import ReactConfetti from "react-confetti";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSmile, faSadCry } from "@fortawesome/free-solid-svg-icons";
 
-
-const Result = ({ questions, answers }) => {
+const Result = ({ questions, answers, reteke }) => {
   const total = () => {
     const rightAns = questions.filter((question) => {
       return question.answer === answers[question.id];
@@ -19,8 +18,9 @@ const Result = ({ questions, answers }) => {
     let totalPracentage = (totalRight / totalQust) * 100;
     return totalPracentage > 60;
   };
+
   return (
-    <div className="m-8">
+    <div className="p-8">
       {questions.map((question) => {
         return (
           <div
@@ -67,7 +67,10 @@ const Result = ({ questions, answers }) => {
               <span>
                 {" "}
                 Oops! try again <br />
-                <button className="rounded bg-green-400 p-3 ml-4 my-2 hover:cursor-pointer hover:bg-green-500 hover:text-white">
+                <button
+                  className="rounded bg-green-400 p-3 ml-4 my-2 hover:cursor-pointer hover:bg-green-500 hover:text-white"
+                  onClick={reteke}
+                >
                   Try again{" "}
                 </button>
               </span>

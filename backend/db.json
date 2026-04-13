@@ -3,72 +3,87 @@
     {
       "id": 1,
       "qno": 1,
-      "text": "What is the capital of India?",
-      "options": ["Mumbai", "Delhi", "Chennai", "Kolkata"],
-      "answer": "Delhi"
-    },
-    {
-      "id": 2,
-      "qno": 2,
       "text": "Which river is the longest in India?",
       "options": ["Narmada", "Yamuna", "Godavari", "Ganga"],
       "answer": "Ganga"
     },
     {
+      "id": 2,
+      "qno": 2,
+      "text": "Which river is known as the Ganga of the South?",
+      "options": ["Godavari", "Krishna", "Kaveri", "Narmada"],
+      "answer": "Godavari"
+    },
+    {
       "id": 3,
       "qno": 3,
-      "text": "Which state is known as Pink City?",
-      "options": ["Jaipur", "Delhi", "Agra", "Lucknow"],
-      "answer": "Jaipur"
+      "text": "Which is the largest state in India by area?",
+      "options": [
+        "Maharashtra",
+        "Rajasthan",
+        "Madhya Pradesh",
+        "Uttar Pradesh"
+      ],
+      "answer": "Rajasthan"
     },
-     {
-    "id": 4,
-    "qno": 4,
-    "text": "Which river is known as the Ganga of the South?",
-    "options": ["Godavari", "Krishna", "Kaveri", "Narmada"],
-    "answer": "Godavari"
-  },
-  {
-    "id": 5,
-    "qno": 5,
-    "text": "Which is the largest state in India by area?",
-    "options": ["Maharashtra", "Rajasthan", "Madhya Pradesh", "Uttar Pradesh"],
-    "answer": "Rajasthan"
-  },
-  {
-    "id": 6,
-    "qno": 6,
-    "text": "Which is the smallest state in India by area?",
-    "options": ["Goa", "Sikkim", "Tripura", "Manipur"],
-    "answer": "Goa"
-  },
-   {
-    "id": 7,
-    "qno": 7,
-    "text": "Which state has the highest population in India?",
-    "options": ["Maharashtra", "Bihar", "West Bengal", "Uttar Pradesh"],
-    "answer": "Uttar Pradesh"
-  },
-   {
-    "id": 8,
-    "qno": 8,
-    "text": "Which mountain range separates India from China?",
-    "options": ["Aravalli", "Himalayas", "Vindhya", "Satpura"],
-    "answer": "Himalayas"
-  },
     {
-    "id": 9,
-    "qno": 9,
-    "text": "Which city is known as the Silicon Valley of India?",
-    "options": ["Hyderabad", "Bangalore", "Pune", "Chennai"],
-    "answer": "Bangalore"
-  },
-  {
+      "id": 4,
+      "qno": 4,
+      "text": "Which is the smallest state in India by area?",
+      "options": ["Goa", "Sikkim", "Tripura", "Manipur"],
+      "answer": "Goa"
+    },
+    {
+      "id": 5,
+      "qno": 5,
+      "text": "Which state has the highest population in India?",
+      "options": ["Maharashtra", "Bihar", "West Bengal", "Uttar Pradesh"],
+      "answer": "Uttar Pradesh"
+    },
+    {
+      "id": 6,
+      "qno": 6,
+      "text": "Which mountain range separates India from China?",
+      "options": ["Aravalli", "Himalayas", "Vindhya", "Satpura"],
+      "answer": "Himalayas"
+    },
+    {
+      "id": 7,
+      "qno": 7,
+      "text": "Which state shares the longest border with China?",
+      "options": [
+        "Sikkim",
+        "Arunachal Pradesh",
+        "Himachal Pradesh",
+        "Uttarakhand"
+      ],
+      "answer": "Arunachal Pradesh"
+    },
+    {
+      "id": 8,
+      "qno": 8,
+      "text": "Which city is known as the Silicon Valley of India?",
+      "options": ["Hyderabad", "Bangalore", "Pune", "Chennai"],
+      "answer": "Bangalore"
+    },
+    {
+      "id": 9,
+      "qno": 9,
+      "text": "Which state has the maximum forest area?",
+      "options": [
+        "Madhya Pradesh",
+        "Arunachal Pradesh",
+        "Chhattisgarh",
+        "Odisha"
+      ],
+      "answer": "Madhya Pradesh"
+    },
+    {
       "id": 10,
       "qno": 10,
-      "text": "Which state has the maximum forest area?",
-      "options": ["Madhya Pradesh", "Arunachal Pradesh", "Chhattisgarh", "Odisha"],
-      "answer": "Madhya Pradesh"
+      "text": "Which Indian state has the longest coastline?",
+      "options": ["Tamil Nadu", "Andhra Pradesh", "Maharashtra", "Gujarat"],
+      "answer": "Gujarat"
     }
   ]
 }

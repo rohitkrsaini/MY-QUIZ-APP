@@ -90,15 +90,15 @@ const Quiz = () => {
             />
           )}
 
-          <div className="flex m-8 justify-between">
+          <div className="flex m-8 justify-center">
             <button
               className="rounded bg-blue-300 px-4 py-2 cursor-pointer hover:bg-blue-500 hover:text-white"
               onClick={handlePreviousClick}
             >
-              Prev
+              Previous
             </button>
             <button
-              className="rounded bg-green-300 px-4 py-2 cursor-pointer hover:bg-green-500 hover:text-white"
+              className="rounded bg-green-300 px-4 py-2 cursor-pointer hover:bg-green-500 hover:text-white ml-20"
               onClick={handleNextClick}
             >
               Save & Next

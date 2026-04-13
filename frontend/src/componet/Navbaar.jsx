@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router'
 
 const Navbaar = () => {
   return (
-    <nav className='bg-violet-400 flex justify-between px-8 py-4'>
+    <nav className='bg-gradient-to-r from-violet-400 to-violet-700 flex justify-between px-8 py-4 '>
         <h1 className='text-white'>MY QUIZ APP</h1>
 
         <NavLink to={'/'}
